@@ -8,6 +8,7 @@ class PivoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		throw new RuntimeException();
 	}
 
 }
