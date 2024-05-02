@@ -11,8 +11,8 @@ public interface PivoController extends REST {
     @GetMapping("/name")
     public String getRandomName();
 
-    //@CrossOrigin(origins = "http://localhost:3000")
-    @CrossOrigin(origins = "https://lemon-cliff-0ca7b9903.5.azurestaticapps.net")
+    //    @CrossOrigin(origins = "http://localhost:3000")
+    //    @CrossOrigin(origins = "https://lemon-cliff-0ca7b9903.5.azurestaticapps.net")
     @GetMapping("/user")
     UserView getUser(@RequestParam(name = "userId", required = false) String userId);
 }
