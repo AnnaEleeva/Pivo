@@ -1,7 +1,7 @@
 # PivoBackend
 цель проекта: научиться связывать бэк и фронт и деплоить их в облако Azure
 
-пробовала залить в azure разными способами\
+пробовала залить в azure разными способами
 1) сама создавала docker контейнеры и Dockerfile и пушила напрямую в acr (azure container registry)
 2) используя CI/CD: GithubActions + Azure AppService 
 
