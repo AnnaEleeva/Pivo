@@ -11,4 +11,18 @@
 
 ![img.png](image1.png)
 
+как добавить образ в acr
+
+```bash
+docker login <registry-name>.azurecr.io --username <registry-username>
+
+в корне проекта
+mvn clean package -DskipTests   (создаем target jar)
+docker init                     (создаем Dockerfile)           
+
+docker build -t test1artifactregistry.azurecr.io/pivo . -f Dockerfile --platform linux/amd64
+
+docker run  --publish 8080:8080 test1artifactregistry.azurecr.io/pivo
+docker push test1artifactregistry.azurecr.io/pivo
+```
 
