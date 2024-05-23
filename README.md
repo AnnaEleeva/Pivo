@@ -6,7 +6,7 @@
 2) используя CI/CD: GithubActions + Azure AppService 
 
 репы которые заливала в azure\
-бэк:  https://github.com/AnnaEleeva/Pivo\ 
+бэк:  https://github.com/AnnaEleeva/Pivo\
 фронт:  https://github.com/AnnaEleeva/PivoFrontend (учила React + JavaScript)
 
 ![img.png](image1.png)
