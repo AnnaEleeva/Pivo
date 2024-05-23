@@ -1,4 +1,7 @@
 # PivoBackend
+
+https://pivo-backend.azurewebsites.net/api/name
+
 цель проекта: научиться связывать бэк и фронт и деплоить их в облако Azure
 
 пробовала залить в azure разными способами
